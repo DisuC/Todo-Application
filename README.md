@@ -1,74 +1,66 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# Todo-App-React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React Todo Application with User Authentication
+Overview
+This React application demonstrates user authentication and a todo list management system. It features user registration, login, and a todo list where users can add, edit, delete, and toggle the completion status of todos. The application uses React Context for state management and does not rely on a backend.
 
-## Available Scripts
+Features
 
-In the project directory, you can run:
+1.User Authentication
+Registration: Sign up with email, password, and name.
+Login: Log in using email and password.
+Authentication State: Managed using React Context for tracking login status and providing feedback.
 
-### `npm start`
+2.Todo List
+Display: View a list of todos with title, description, and status.
+Add: Form to create new todos.
+Edit: Update existing todos.
+Delete: Remove todos from the list.
+Toggle Completion: Mark todos as completed or incomplete.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3.UI/UX Considerations
+Responsive Design: Adaptable to both desktop and mobile devices.
+Modern Design: Clean and intuitive interface.
+Error Handling: Basic validation and error messages.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4.Bonus Features (Optional)
+Client-Side Routing: Implemented with React Router for separate login/register and todo list pages.
+Local Storage: Persist todos across page reloads.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Setup and Installation
+To get the application up and running on your local machine, follow these steps:
 
-### `npm run build`
+1.Clone the Repository
+git clone: [https://github.com/DisuC/Todo-App-React]
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2.Navigate to the Project Directory:
+cd [project-directory]
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3.Install Dependencies Ensure you have Node.js installed. Then, install the required dependencies using npm:
+npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4.Run the Application Start the development server with:
+npm start
 
-### `npm run eject`
+The application will open in your default web browser at http://localhost:3000.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+5.Additional Setup Steps
+Styling Libraries: If you use additional styling libraries or UI frameworks, ensure they are included in the project. You may need to install these separately and import them into your project.
+Form Validation: Form validation is handled using Yup and Formik. Ensure these packages are installed and properly configured.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Code Quality
+Readability: Code is structured for clarity and maintainability.
+React Features: Utilizes React hooks and context effectively.
+Component Structure: Components are well-organized and modular.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Functionality
+Features: Complete with working authentication and todo list features.
+Edge Cases: Proper handling of validation errors and user interactions.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+User Experience
+Design: Focused on usability and responsiveness to provide a seamless user experience.
 
-## Learn More
+Documentation: This README file provides all necessary instructions for running the application and additional setup information.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# Todo-Application
->>>>>>> affa8e850f7641ba71412b9c471931a3d8f48ea5
+For further details or design considerations, please refer to the documentation within the repository.
