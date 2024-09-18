@@ -32,7 +32,7 @@ Setup and Installation
 To get the application up and running on your local machine, follow these steps:
 
 1.Clone the Repository
-git clone: [https://github.com/DisuC/Todo-App-React]
+git clone: [https://github.com/DisuC/Todo-Application]
 
 2.Navigate to the Project Directory:
 cd [project-directory]
